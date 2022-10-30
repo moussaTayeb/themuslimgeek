@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.logo {
+  height: 10em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #ed4ceb);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #ed4ceb);
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.intro {
+  margin-top: 10em;
+  text-align: center;
+}
+.geek {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+.coming {
+  margin-top: 1em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+}
+.action {
+  margin-top: 5em;
+}
+.button {
+  background-color: #ed4ceb;
+  font-size: 24px;
+  color: black;
+  padding: 0.5em 1.5em;
+  border-radius: 2em;
+  cursor: pointer;
+  will-change: filter;
+  text-decoration: none;
+}
+.button:hover {
+  filter: drop-shadow(0 0 3em #ed4ceb);
+}
+.button.react:hover {
+  filter: drop-shadow(0 0 3em #ed4ceb);
+}
+
+@media only screen and (max-width: 670px) {
+  .geek {
+    font-size: 24px;
+  }
+  .coming {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .geek {
+    font-size: 24px;
+  }
+  .coming {
+    font-size: 20px;
+  }
+}
+.icon {
+  height: 3em;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+}
+.socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+}
+a {
+  text-decoration: none;
+}
+.icon:hover {
+  filter: drop-shadow(0 0 3em #ed4ceb);
+}
+.icon.react:hover {
+  filter: drop-shadow(0 0 3em #ed4ceb);
+}
+
+@media only screen and (max-width: 550px) {
+  .logo {
+    height: 6em;
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap");
+
+.verses {
+  font-family: "Noto Nastaliq Urdu", serif;
+  font-size: 32px;
+}
+
+.verses {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 870px) {
+  .verses {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .verses {
+    font-size: 22px;
+    font-weight: 700;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .verses {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 1em;
+    text-align: center;
+    line-height: 2.5em;
+  }
+}
